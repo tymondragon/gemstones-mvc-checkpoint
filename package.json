@@ -1,0 +1,30 @@
+{
+  "name": "gemstones-mvc-checkpoint",
+  "version": "1.0.0",
+  "description": "A simple api using mvc structure",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tymondragon/gemstones-mvc-checkpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tymondragon/gemstones-mvc-checkpoint/issues"
+  },
+  "homepage": "https://github.com/tymondragon/gemstones-mvc-checkpoint#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
