@@ -9,7 +9,7 @@ let create = ({id, name, hardness}) => {
   } else {
     const gem = ({id, name, hardness})
     gems.push(gem)
-    response = `New gem created. ${gem}`
+    response = {data: gem}
   }
   return response
 }
