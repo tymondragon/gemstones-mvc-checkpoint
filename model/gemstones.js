@@ -24,7 +24,7 @@ let getOne = (id) => {
     errors.push(`Cannot find the gem with the ID of ${id}`)
     response = {errors}
   } else {
-    response = `${gem} Retrieved.`
+    response = {data: gem}
   }
   return response
 }
@@ -41,7 +41,7 @@ let update = (id, {name, hardness}) => {
   } else {
     gem.name = name
     gem.hardness = hardness
-    response = `Gem updated to ${gem}.`
+    response = {data:gem}
   }
   return response
 }
