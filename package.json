@@ -2,10 +2,10 @@
   "name": "gemstones-mvc-checkpoint",
   "version": "1.0.0",
   "description": "A simple api using mvc structure",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
+  },
+  "engines": {
+    "node": "v10.0.0"
   }
 }
